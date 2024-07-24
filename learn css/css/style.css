@@ -1,0 +1,34 @@
+/* * {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+} */
+/* * {
+  border: 2 px solid rgb(0, 0, 0);
+} */
+body {
+  font-size: 22px;
+  border: 6px solid black;
+}
+.first {
+  font-style: italic;
+  color: red;
+  font-size: 25px;
+}
+
+h1 {
+  border: 4px solid royalblue;
+  align: center;
+  color: aqua;
+}
+h2 {
+  align: center;
+  color: rgb(0, 255, 17);
+}
+.second {
+  color: blueviolet;
+
+  font-size: 30px;
+}
+.highlight {
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 0, 4);
+}
