@@ -4,31 +4,46 @@
 /* * {
   border: 2 px solid rgb(0, 0, 0);
 } */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 body {
   font-size: 22px;
-  border: 6px solid black;
+  background-color: bisque;
+  min-height: 100vh;
 }
 .first {
   font-style: italic;
-  color: red;
-  font-size: 25px;
+  color: #0a44ff;
+  font-size: 1.7ric;
+  width: 35ch;
 }
 
 h1 {
-  border: 4px solid royalblue;
-  align: center;
-  color: aqua;
+  /* border: 4px solid royalblue; */
+  width: 50%;
+  border: 3px dashed rgb(0, 255, 0);
+  align-items: center;
+  color: hsl(267, 100%, 50%);
+  font-size: 2rem;
+  padding: 0.2em;
 }
 h2 {
   align: center;
-  color: rgb(0, 255, 17);
+  color: hsla(0, 0%, 50%, 0.9);
 }
 .second {
   color: blueviolet;
-
-  font-size: 30px;
+  color: #1cc32f;
+  font-style: italic;
+  font-size: 1.3rem;
+  width: 50%;
 }
 .highlight {
   color: rgb(0, 0, 0);
   background-color: rgb(255, 0, 4);
+  font-family: monospace;
+  font-size: 30px;
 }
