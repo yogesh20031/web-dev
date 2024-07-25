@@ -3,27 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>mixed</title>
-    <link rel="stylesheeet" href="css/style.css" />
   </head>
   <body>
     <main>
       <h1 align="center"><i>this is first try</i></h1>
 
       <!-- this is absulate link -->
-      <a href="about.html">click</a>
+      <a href="about.html" rel="noreferrer">click</a>
 
       <h2>yogesh photo</h2>
       <main>
-        <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
-          <img
-            align="center"
-            src="picture/yy.jpg"
-            width="150"
-            height="150"
-            alt="yogesh photo"
-          /><br />
-        </a>
+        <div class="img1">
+          <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+            <img
+              align="center"
+              src="picture/yy.jpg"
+              width="150"
+              height="150"
+              alt="yogesh photo"
+            /><br />
+          </a>
+        </div>
         <img
           align="center"
           src="picture/cat.jpg"
@@ -82,40 +84,52 @@
           height="250"
           alt="group photo of cat"
         /><br /><br />
-        <form action="/sumit-cat-photo">
-          <label for="indoor"
-            ><input type="radio" name="inout" id="indoor" checked /><font
-              size="+3"
-              >Indoor
-            </font> </label
-          ><br />
-          <label for="outdoor"
-            ><input type="radio" name="inout" id="outdoor" /><font size="+3"
-              >outDoor
-            </font> </label
-          ><br />
+        <div class="form">
+          <form action="/sumit-cat-photo">
+            <label for="indoor"
+              ><input type="radio" name="inout" id="indoor" checked /><font
+                size="+3"
+                >Indoor
+              </font> </label
+            ><br />
+            <label for="outdoor"
+              ><input type="radio" name="inout" id="outdoor" /><font size="+3"
+                >outDoor
+              </font> </label
+            ><br />
 
-          <label for="loving">
-            <input type="checkbox" name="personality" id="loving" checked />
-            <font size="+3">loving </font> </label
-          ><br />
+            <label for="loving">
+              <input type="checkbox" name="personality" id="loving" checked />
+              <font size="+3">loving </font> </label
+            ><br />
 
-          <label for="lazy">
-            <input type="checkbox" name="personality" id="lazy" />
-            <font size="+3">lazy </font> </label
-          ><br />
-          <label for="energetic">
-            <input type="checkbox" name="personality" id="energetic" />
-            <font size="+3">Energetic </font> </label
-          ><br />
-          <input type="text" placeholder="cat phpto url" required /><br />
-          <input type="password" placeholder="password" required /><br />
-          <button type="submit">submit</button><br />
-        </form>
+            <label for="lazy">
+              <input type="checkbox" name="personality" id="lazy" />
+              <font size="+3">lazy </font> </label
+            ><br />
+            <label for="energetic">
+              <input type="checkbox" name="personality" id="energetic" />
+              <font size="+3">Energetic </font> </label
+            ><br />
+            <input
+              class="imp"
+              type="text"
+              placeholder="cat phpto url"
+              required
+            /><br />
+            <input
+              class="imp"
+              type="password"
+              placeholder="password"
+              required
+            /><br />
+            <button type="submit" class="submit">submit</button><br />
+          </form>
+        </div>
       </main>
       <footer>
-        <p>
-          No Copy right
+        <p class="last">
+          No Copy right <br />
           <a href="https://freeCodeCamp.org" target="_blank">freeCodeCamp</a>
         </p>
       </footer>

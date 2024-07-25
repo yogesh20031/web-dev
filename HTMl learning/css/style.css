@@ -1,3 +1,21 @@
-.table {
+* {
   color: aquamarine;
+}
+.img1 {
+  width: 50%;
+}
+.form {
+  font-size: 33px;
+  text-align: center;
+}
+.last {
+  font-size: 30px;
+}
+.imp {
+  font-size: 1.2rem;
+  color: blueviolet;
+  border: 2px dashed black;
+}
+.submit {
+  font-size: 1.1rem;
 }
